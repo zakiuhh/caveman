@@ -93,14 +93,15 @@ cp -r caveman ~/.claude/skills/
 ```
 caveman/
 ├── assets/
-│   ├── logo-dark.png      # for dark backgrounds
-│   └── logo-light.png     # for light backgrounds
+│   ├── logo-dark.png        # for dark backgrounds
+│   └── logo-light.png        # for light backgrounds
 ├── references/
-│   └── examples.md        # more worked examples
-├── LICENSE                # MIT
-├── NOTICE.md              # credits and list of changes
+│   └── examples.md         # more worked examples
+├── LICENSE                        # MIT
+├── NOTICE.md                  # credits and list of changes
 ├── README.md
-└── SKILL.md               # the actual skill
+├── SKILL.md                       # the SKILL.md
+└── caveman.skill                       # the actual skill file (zipped)
 ```
 
 ## Customizing
